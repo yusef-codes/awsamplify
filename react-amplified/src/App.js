@@ -56,7 +56,7 @@ const App = () => {
         value={formState.description}
         placeholder="Description"
       />
-      <button style={styles.button} onClick={addTodo}>Create Todoss</button>
+      <button style={styles.button} onClick={addTodo}>Create Todoss: try again after editing that file in console</button>
       {
         todos.map((todo, index) => (
           <div key={todo.id ? todo.id : index} style={styles.todo}>
